@@ -10,19 +10,18 @@ Antes de utilizar o mdckr, é preciso ter o Node.js instalado caso deseje rodar 
 
 Você pode utilizar o mdckr de duas formas: a partir do arquivo `out/mdckr.js` com o Node.js ou através de um executável gerado. 
 
-Para utilizar o mdckr com Node.js, siga os passos abaixo:
-
 1. Baixe o repositório do mdckr em sua máquina.
 2. Abra o terminal e navegue até a pasta onde o repositório foi baixado.
 3. Instale as dependências utilizando "npm install"
 5. Transpile o código usando "npm run build"
 6. Para gerar os arquivos Dockerfile e docker-compose.yaml para um projeto, execute o seguinte comando:
 
+Para utilizar o mdckr com Node.js:
 ```
 npm start <imagem> <versão> "<build>" "<run>" <porta>
 ```
 
-Se você preferir, é possível compilar o código para .exe. Utilize "npm run build" e "npm run generate".
+Se você preferir, é possível compilar o código para .exe. Utilize "npm run generate" e um aplicativo .exe será gerado.
 
 ```
 .\mdckr.exe <imagem> <versão> "<build>" "<run>" <porta>
