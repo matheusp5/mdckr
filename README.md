@@ -10,6 +10,8 @@ Antes de utilizar o mdckr, é preciso ter o Node.js instalado caso deseje rodar 
 
 Você pode utilizar o mdckr de duas formas: a partir do arquivo `out/mdckr.js` com o Node.js ou através de um executável gerado. 
 
+Instale as dependências do projeto:
+
 1. Baixe o repositório do mdckr em sua máquina.
 2. Abra o terminal e navegue até a pasta onde o repositório foi baixado.
 3. Instale as dependências utilizando "npm install"
