@@ -4,11 +4,11 @@ mdckr é uma ferramenta para gerar automaticamente os arquivos Dockerfile e dock
 
 ### Pré-requisitos
 
-Antes de utilizar o mdckr, é preciso ter o Node.js instalado caso deseje rodar o mdckr via terminal integrado com node. Caso queira executar com .exe, é necessário ter o pacote [pkg](https://www.npmjs.com/package/pkg) instalado globalmente.
+Antes de utilizar o mdckr, é preciso ter o Node.js instalado caso deseje rodar o mdckr via terminal integrado. Caso queira executar com .exe, é necessário ter o pacote [pkg](https://www.npmjs.com/package/pkg) instalado globalmente.
 
 ### Como utilizar
 
-Você pode utilizar o mdckr de duas formas: a partir do arquivo `out/mdckr.js` com o Node.js ou através de um executável gerado. Até o momento, apenas a opção com o Node.js está disponível.
+Você pode utilizar o mdckr de duas formas: a partir do arquivo `out/mdckr.js` com o Node.js ou através de um executável gerado. 
 
 Para utilizar o mdckr com Node.js, siga os passos abaixo:
 
