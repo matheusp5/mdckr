@@ -1,0 +1,23 @@
+{
+
+  "name": "mdckr",
+  "version": "1.0.0",
+  "main": "out/mdckr.js",
+  "scripts": {
+    "build": "tsc ./src/mdckr.ts --outDir ./out",
+    "start": "node out/mdckr.js",
+    "generate": "pkg --targets=node14-win out/mdckr.js"
+  },
+  "keywords": [],
+  "author": "Matheus Piccoli",
+  "license": "MIT",
+  "description": "mdckr é uma ferramenta para gerar automaticamente os arquivos Dockerfile e docker-compose.yaml para projetos em diferentes linguagens. O objetivo dessa ferramenta é facilitar a criação de imagens Docker e simplificar o processo de deploy.",
+  "dependencies": {
+    "@types/node": "^18.16.1",
+    "chalk": "^4.1.2",
+    "commander": "^10.0.1",
+    "js-yaml": "^4.1.0",
+    "typescript": "^5.0.4"
+  }
+}
+
